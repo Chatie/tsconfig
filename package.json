@@ -1,5 +1,5 @@
 {
-  "name": "tsconfig",
+  "name": "@chatie/tsconfig",
   "version": "0.0.3",
   "description": "tsconfig.json inheritance via Node.js packages",
   "main": "index.js",

@@ -22,5 +22,13 @@
   "bugs": {
     "url": "https://github.com/Chatie/tsconfig/issues"
   },
-  "homepage": "https://github.com/Chatie/tsconfig#readme"
+  "git": {
+    "scripts": {
+      "pre-push": "./scripts/pre-push.sh"
+    }
+  },
+  "homepage": "https://github.com/Chatie/tsconfig#readme",
+  "devDependencies": {
+    "git-scripts": "^0.2.1"
+  }
 }

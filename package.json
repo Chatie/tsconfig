@@ -5,6 +5,7 @@
   "main": "index.js",
   "tsconfig": "tsconfig.json",
   "scripts": {
+    "lint": "echo lint",
     "test": "echo test"
   },
   "repository": {

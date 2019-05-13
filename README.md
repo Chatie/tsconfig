@@ -23,3 +23,24 @@ tsconfig.json inheritance via Node.js packages
 > 
 > This feature can be extremely useful for bigger organizations, or projects with lots of distributed dependencies.
 > 
+
+
+## HISTORY
+
+### master
+
+### v0.1 May 2019
+
+1. Create a tsconfig base setting module for sharing across projects
+
+## AUTHOR
+
+[Huan LI (李卓桓)](http://linkedin.com/in/zixia) \<zixia@zixia.net\>
+
+[![Profile of Huan LI (李卓桓) on StackOverflow](https://stackexchange.com/users/flair/265499.png)](https://stackexchange.com/users/265499)
+
+## COPYRIGHT & LICENSE
+
+- Code & Docs © 2019 - now Huan LI \<zixia@zixia.net\>
+- Code released under the Apache-2.0 License
+- Docs released under Creative Commons

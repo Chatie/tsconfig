@@ -42,6 +42,11 @@ It aim the following goals:
 > This feature can be extremely useful for bigger organizations, or projects with lots of distributed dependencies.
 > 
 
+## DEPENDENCES
+
+This module will run a unit test before it could be able to publish to NPM.
+
+The unit test load tsconfig schema from [JSON Schema Store](http://schemastore.org/) and then use [is-my-json-valid](https://www.npmjs.com/package/is-my-json-valid) to validate it.
 
 ## HISTORY
 

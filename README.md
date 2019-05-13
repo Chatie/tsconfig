@@ -6,6 +6,16 @@
 
 tsconfig.json inheritance via Node.js packages
 
+## USAGE
+
+extends from `@chatie/tsconfig` from your tsconfig.json, to have the chatie version of the TypeScript Configuration.
+
+It aim the following goals:
+
+1. Support the latest `esnext` ECMAScript
+1. Strict for everything
+1. Aiming for Convenience, including the `esModuleInterop` and `resolveJsonModule` etc.
+
 ## SEE ALSO
 
 - [TypeScript 3.2 - tsconfig.json inheritance via Node.js packages](https://github.com/Microsoft/TypeScript/wiki/What's-new-in-TypeScript#tsconfigjson-inheritance-via-nodejs-packages)

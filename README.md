@@ -1,5 +1,9 @@
 # tsconfig
 
+[![NPM Version](https://badge.fury.io/js/@chatie/tsconfig.svg)](https://www.npmjs.com/package/@chatie/tsconfig)
+[![npm (tag)](https://img.shields.io/npm/v/@chatie/tsconfig/next.svg)](https://www.npmjs.com/package/@chatie/tsconfig?activeTab=versions)
+[![Build Status](https://travis-ci.com/Chatie/tsconfig.svg?branch=master)](https://travis-ci.com/Chatie/tsconfig)
+
 tsconfig.json inheritance via Node.js packages
 
 ## SEE ALSO

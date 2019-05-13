@@ -50,9 +50,9 @@ The unit test load tsconfig schema from [JSON Schema Store](http://schemastore.o
 
 ## HISTORY
 
-### master
+### v0.3 master
 
-### v0.1 May 2019
+### v0.2 May 2019
 
 1. Create a tsconfig base setting module for sharing across projects
 

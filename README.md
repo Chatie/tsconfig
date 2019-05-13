@@ -1,14 +1,14 @@
 # tsconfig
 
 [![NPM Version](https://badge.fury.io/js/%40chatie%2Ftsconfig.svg)](https://www.npmjs.com/package/@chatie/tsconfig)
-[![npm (tag)](https://img.shields.io/npm/v/%40chatie%2Ftsconfig/next.svg)](https://www.npmjs.com/package/@chatie/tsconfig?activeTab=versions)
+[![npm (tag)](https://img.shields.io/npm/v/%40chatie/tsconfig/next.svg)](https://www.npmjs.com/package/@chatie/tsconfig?activeTab=versions)
 [![Build Status](https://travis-ci.com/Chatie/tsconfig.svg?branch=master)](https://travis-ci.com/Chatie/tsconfig)
 
 ![tsconfig.json](https://chatie.github.io/tsconfig/images/typescript-tsconfig-json.jpg)
 
 > Picture: [What is tsconfig.json](https://www.kunal-chowdhury.com/2018/05/typescript-tutorial-tsconfig-json.html)
 
-tsconfig.json inheritance via Node.js packages
+This module enables other module to inheritance tsconfig.json via Node.js packages
 
 ## USAGE
 

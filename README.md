@@ -4,7 +4,7 @@
 [![npm (tag)](https://img.shields.io/npm/v/%40chatie%2Ftsconfig/next.svg)](https://www.npmjs.com/package/@chatie/tsconfig?activeTab=versions)
 [![Build Status](https://travis-ci.com/Chatie/tsconfig.svg?branch=master)](https://travis-ci.com/Chatie/tsconfig)
 
-![tsconfig.json](images/typescript-tsconfig-json.jpg)
+![tsconfig.json](https://chatie.github.io/tsconfig/images/typescript-tsconfig-json.jpg)
 
 > Picture: [What is tsconfig.json](https://www.kunal-chowdhury.com/2018/05/typescript-tutorial-tsconfig-json.html)
 

@@ -17,6 +17,7 @@ extends from `@chatie/tsconfig` from your tsconfig.json, to have the chatie vers
 It aim the following goals:
 
 1. Support the latest `esnext` ECMAScript
+1. Targeting for `ES6`
 1. Strict for everything
 1. Aiming for Convenience, including the `esModuleInterop` and `resolveJsonModule` etc.
 

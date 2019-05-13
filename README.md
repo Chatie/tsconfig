@@ -12,7 +12,7 @@ This module enables other module to inheritance tsconfig.json via Node.js packag
 
 ## USAGE
 
-extends from `@chatie/tsconfig` from your tsconfig.json, to have the chatie version of the TypeScript Configuration.
+Extends from `@chatie/tsconfig` from your tsconfig.json, to have the chatie version of the TypeScript Configuration.
 
 It aim the following goals:
 

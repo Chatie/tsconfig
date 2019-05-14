@@ -2,7 +2,6 @@
   "name": "@chatie/tsconfig",
   "version": "0.3.2",
   "description": "tsconfig.json inheritance via Node.js packages",
-  "main": "index.js",
   "tsconfig": "tsconfig.json",
   "scripts": {
     "lint": "echo lint",
@@ -53,5 +52,8 @@
     "access": "public",
     "tag": "latest"
   },
+  "files": [
+    "tsconfig.json"
+  ],
   "dependencies": {}
 }

@@ -51,9 +51,13 @@ The unit test load tsconfig schema from [JSON Schema Store](http://schemastore.o
 
 ## HISTORY
 
-### v0.3 master
+### v0.5 master
 
-### v0.2 May 2019
+### v0.4 14 May 2019
+
+1. Only publish `tsconfig.json` to NPM to prevent strange bugs
+
+### v0.2 13 May 2019
 
 1. Create a tsconfig base setting module for sharing across projects
 

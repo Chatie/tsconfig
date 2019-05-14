@@ -21,6 +21,13 @@ It aim the following goals:
 1. Strict for everything
 1. Aiming for Convenience, including the `esModuleInterop` and `resolveJsonModule` etc.
 
+### CAUTION
+
+Do not put any directory related configurations into this module.
+Only put directory related configurations to the consumer of this module.
+
+Because all directory in tsconfig.json is related to the curfrent directory.
+
 ## SEE ALSO
 
 - [TypeScript 3.2 - tsconfig.json inheritance via Node.js packages](https://github.com/Microsoft/TypeScript/wiki/What's-new-in-TypeScript#tsconfigjson-inheritance-via-nodejs-packages)

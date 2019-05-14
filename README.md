@@ -8,6 +8,8 @@
 
 > Picture: [What is tsconfig.json](https://www.kunal-chowdhury.com/2018/05/typescript-tutorial-tsconfig-json.html)
 
+Reusable TypeScript configuration files to extend from.  
+
 This module enables other module to inheritance tsconfig.json via Node.js packages
 
 ## USAGE

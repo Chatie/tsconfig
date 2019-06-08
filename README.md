@@ -8,6 +8,8 @@
 
 > Picture: [What is tsconfig.json](https://www.kunal-chowdhury.com/2018/05/typescript-tutorial-tsconfig-json.html)
 
+Reusable TypeScript configuration files to extend from.  
+
 This module enables other module to inheritance tsconfig.json via Node.js packages
 
 ## USAGE
@@ -63,9 +65,6 @@ The unit test load tsconfig schema from [JSON Schema Store](http://schemastore.o
 ### v0.4 14 May 2019
 
 1. Only publish `tsconfig.json` to NPM to prevent strange bugs
-
-### v0.2 13 May 2019
-
 1. Create a tsconfig base setting module for sharing across projects
 
 ## AUTHOR

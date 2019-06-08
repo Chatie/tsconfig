@@ -24,7 +24,8 @@ const TSCONFIG_JSON_CONTENT = `{
     "src/**/*.ts",
     "tests/**/*.spec.ts",
   ],
-}`
+}
+`
 
 async function main () {
   const cwd = path.join(__dirname, '..', '..')

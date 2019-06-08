@@ -60,7 +60,9 @@ The unit test load tsconfig schema from [JSON Schema Store](http://schemastore.o
 
 ## HISTORY
 
-### v0.5 (master)
+### v0.7 (master)
+
+### v0.6 June 08 2019
 
 1. Auto generate `tsconfig.json` in project root directory after install if it not exists.
 

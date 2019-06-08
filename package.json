@@ -4,9 +4,12 @@
   "description": "tsconfig.json inheritance via Node.js packages",
   "tsconfig": "tsconfig.json",
   "scripts": {
+    "dist": "echo dist",
     "lint": "echo lint",
+    "pack": "npm pack",
     "postinstall": "node bin/install",
     "test": "npm run lint && npm run test:unit",
+    "test:pack": "bash -x scripts/npm-pack-testing.sh",
     "test:unit": "blue-tape -r ts-node/register \"src/**/*.spec.ts\" \"src/*.spec.ts\" \"tests/*.spec.ts\" \"tests/**/*.spec.ts\""
   },
   "repository": {
@@ -51,7 +54,8 @@
     "tag": "latest"
   },
   "files": [
-    "tsconfig.json"
+    "tsconfig.json",
+    "bin/install"
   ],
   "dependencies": {
     "@types/node": "^12.0.0",

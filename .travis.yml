@@ -28,6 +28,13 @@ jobs:
           - echo "Testing Finished"
           - echo "TRAVIS_TEST_RESULT=$TRAVIS_TEST_RESULT"
 
+    - stage: pack
+        script:
+          - echo "NPM Pack Testing Started ..."
+          - npm version
+          - npm run test:pack
+          - echo "NPM Pack Testing Finished."
+
     - stage: deploy
         script:
           - echo "NPM Deploying Started ..."

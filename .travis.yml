@@ -20,28 +20,28 @@ install:
 jobs:
   include:
     - stage: test
-        script:
-          - node --version
-          - npm --version
-          - echo "Testing Started ..."
-          - npm test
-          - echo "Testing Finished"
-          - echo "TRAVIS_TEST_RESULT=$TRAVIS_TEST_RESULT"
+      script:
+        - node --version
+        - npm --version
+        - echo "Testing Started ..."
+        - npm test
+        - echo "Testing Finished"
+        - echo "TRAVIS_TEST_RESULT=$TRAVIS_TEST_RESULT"
 
     - stage: pack
-        script:
-          - echo "NPM Pack Testing Started ..."
-          - npm version
-          - npm run test:pack
-          - echo "NPM Pack Testing Finished."
+      script:
+        - echo "NPM Pack Testing Started ..."
+        - npm version
+        - npm run test:pack
+        - echo "NPM Pack Testing Finished."
 
     - stage: deploy
-        script:
-          - echo "NPM Deploying Started ..."
-          - npm version
-          - if ./scripts/development-release.ts; then ./scripts/package-publish-config-tag-next.ts; fi
-          - echo "NPM Building Finished."
-          - echo "TRAVIS_TEST_RESULT=$TRAVIS_TEST_RESULT"
+      script:
+        - echo "NPM Deploying Started ..."
+        - npm version
+        - if ./scripts/development-release.ts; then ./scripts/package-publish-config-tag-next.ts; fi
+        - echo "NPM Building Finished."
+        - echo "TRAVIS_TEST_RESULT=$TRAVIS_TEST_RESULT"
 
       deploy:
         provider: npm

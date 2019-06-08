@@ -46,11 +46,11 @@ Because all directory in tsconfig.json is related to the curfrent directory.
 >     }
 > }
 > ```
-> 
+>
 > Here, TypeScript will climb up node_modules folders looking for a @my-team/tsconfig-base package. For each of those packages, TypeScript will first check whether package.json contains a "tsconfig" field, and if it does, TypeScript will try to load a configuration file from that field. If neither exists, TypeScript will try to read from a tsconfig.json at the root. This is similar to the lookup process for .js files in packages that Node uses, and the .d.ts lookup process that TypeScript already uses.
-> 
+>
 > This feature can be extremely useful for bigger organizations, or projects with lots of distributed dependencies.
-> 
+>
 
 ## DEPENDENCES
 
@@ -60,9 +60,11 @@ The unit test load tsconfig schema from [JSON Schema Store](http://schemastore.o
 
 ## HISTORY
 
-### v0.5 master
+### v0.5 (master)
 
-### v0.4 14 May 2019
+1. Auto generate `tsconfig.json` in project root directory after install if it not exists.
+
+### v0.4 May 14 2019
 
 1. Only publish `tsconfig.json` to NPM to prevent strange bugs
 1. Create a tsconfig base setting module for sharing across projects

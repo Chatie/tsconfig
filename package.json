@@ -44,9 +44,7 @@
     "is-my-json-valid": "^2.20.0",
     "json5": "^2.1.0",
     "read-pkg-up": "^6.0.0",
-    "semver": "^6.0.0",
-    "ts-node": "^8.1.0",
-    "typescript": "^3.4.5"
+    "semver": "^6.0.0"
   },
   "publishConfig": {
     "access": "public",
@@ -55,5 +53,8 @@
   "files": [
     "tsconfig.json"
   ],
-  "dependencies": {}
+  "dependencies": {
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5"
+  }
 }

@@ -29,7 +29,7 @@ const TSCONFIG_JSON_CONTENT = `{
 async function main (): Promise<number> {
   const pkg = await pkgUp()
   if (!pkg) {
-    console.info('Failed to find package directory.')
+    console.info('@chatie/tsconfig: failed to find package directory.')
     return 1
   }
   const pkgDir = path.dirname(pkg)
@@ -37,7 +37,7 @@ async function main (): Promise<number> {
   const tsconfigFile = path.join(pkgDir, 'tsconfig.json')
 
   if (!fs.existsSync(tsconfigFile)) {
-    console.info('`${tsconfigFile} auto generated.')
+    console.info(`@chatie/tsconfig: auto generated ${tsconfigFile}`)
     fs.writeFileSync(tsconfigFile, TSCONFIG_JSON_CONTENT)
   }
   return 0

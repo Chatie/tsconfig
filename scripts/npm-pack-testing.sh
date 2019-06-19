@@ -9,7 +9,8 @@ mkdir "$TMPDIR"
 mv *-*.*.*.tgz "$TMPDIR"
 cp -R tests/fixtures/* "$TMPDIR"
 
-cd $TMPDIR
+pushd $TMPDIR
+
 npm init -y
 npm install --production \
   *-*.*.*.tgz
@@ -24,3 +25,5 @@ npm install --production \
   smoke-testing.ts
 
 node smoke-testing.js
+
+popd

@@ -30,28 +30,23 @@
   "bugs": {
     "url": "https://github.com/Chatie/tsconfig/issues"
   },
-  "git": {
-    "scripts": {
-      "pre-push": "./scripts/pre-push.sh"
-    }
-  },
   "homepage": "https://github.com/Chatie/tsconfig#readme",
   "devDependencies": {
-    "@types/blue-tape": "^0.1.32",
+    "@chatie/git-scripts": "^0.2.5",
+    "@chatie/semver": "^0.4.7",
     "@types/json5": "0.0.30",
     "@types/read-pkg-up": "^3.0.1",
-    "@types/semver": "^6.0.0",
-    "blue-tape": "^1.0.0",
     "file-box": "^0.8.27",
-    "git-scripts": "^0.2.1",
     "is-my-json-valid": "^2.20.0",
     "json5": "^2.1.0",
+    "pkg-jq": "^0.2.3",
+    "pkg-up": "^3.1.0",
     "read-pkg-up": "^6.0.0",
-    "semver": "^6.0.0"
+    "tstest": "^0.4.2"
   },
   "publishConfig": {
     "access": "public",
-    "tag": "latest"
+    "tag": "next"
   },
   "files": [
     "tsconfig.json",
@@ -59,8 +54,12 @@
   ],
   "dependencies": {
     "@types/node": "^12.0.0",
-    "pkg-up": "^3.1.0",
     "ts-node": "^8.1.0",
     "typescript": "^3.4.5"
+  },
+  "git": {
+    "scripts": {
+      "pre-push": "npx git-scripts-pre-push"
+    }
   }
 }

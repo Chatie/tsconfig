@@ -39,7 +39,7 @@ jobs:
       script:
         - echo "NPM Deploying Started ..."
         - npm version
-        - if ./scripts/development-release.ts; then ./scripts/package-publish-config-tag-next.ts; fi
+        - ./scripts/package-publish-config-tag.sh
         - echo "NPM Building Finished."
         - echo "TRAVIS_TEST_RESULT=$TRAVIS_TEST_RESULT"
 

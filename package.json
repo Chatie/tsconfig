@@ -46,6 +46,7 @@
     "git-scripts": "^0.2.1",
     "is-my-json-valid": "^2.20.0",
     "json5": "^2.1.0",
+    "pkg-jq": "^0.2.4",
     "read-pkg-up": "^6.0.0",
     "semver": "^6.0.0"
   },

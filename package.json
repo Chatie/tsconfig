@@ -35,7 +35,7 @@
     "@chatie/git-scripts": "^0.2.5",
     "@chatie/semver": "^0.4.7",
     "@types/json5": "0.0.30",
-    "@types/read-pkg-up": "^3.0.1",
+    "@types/read-pkg-up": "^6.0.0",
     "file-box": "^0.8.27",
     "is-my-json-valid": "^2.20.0",
     "json5": "^2.1.0",

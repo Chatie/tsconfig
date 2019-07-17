@@ -41,7 +41,6 @@ jobs:
         - npm version
         - ./scripts/package-publish-config-tag.sh
         - echo "NPM Building Finished."
-        - echo "TRAVIS_TEST_RESULT=$TRAVIS_TEST_RESULT"
 
       deploy:
         provider: npm

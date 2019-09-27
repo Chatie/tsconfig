@@ -40,7 +40,7 @@
     "is-my-json-valid": "^2.20.0",
     "json5": "^2.1.0",
     "pkg-jq": "^0.2.4",
-    "read-pkg-up": "^6.0.0",
+    "read-pkg-up": "^7.0.0",
     "tstest": "^0.4.2"
   },
   "publishConfig": {

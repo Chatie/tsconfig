@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - "10"
+  - "12"
 
 os:
   - linux
@@ -11,6 +11,7 @@ cache:
 
 stages:
   - test
+  - pack
   - name: deploy
     if: (type = push) AND branch =~ ^(master|v\d+\.\d+)$
 

@@ -35,12 +35,12 @@
     "@chatie/git-scripts": "^0.2.5",
     "@chatie/semver": "^0.4.7",
     "@types/json5": "0.0.30",
-    "@types/read-pkg-up": "^3.0.1",
-    "file-box": "^0.8.27",
+    "@types/read-pkg-up": "^6.0.0",
+    "file-box": "^0.10.6",
     "is-my-json-valid": "^2.20.0",
     "json5": "^2.1.0",
     "pkg-jq": "^0.2.4",
-    "read-pkg-up": "^6.0.0",
+    "read-pkg-up": "^7.0.0",
     "tstest": "^0.4.2"
   },
   "publishConfig": {
@@ -52,7 +52,7 @@
     "bin/install.js"
   ],
   "dependencies": {
-    "@types/node": "^12.0.0",
+    "@types/node": "^13.1.0",
     "pkg-up": "^3.1.0",
     "ts-node": "^8.1.0",
     "typescript": "^3.4.5"

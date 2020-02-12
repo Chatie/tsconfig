@@ -36,7 +36,7 @@
     "@chatie/semver": "^0.4.7",
     "@types/json5": "0.0.30",
     "@types/read-pkg-up": "^6.0.0",
-    "file-box": "^0.10.6",
+    "file-box": "^0.12.1",
     "is-my-json-valid": "^2.20.0",
     "json5": "^2.1.0",
     "pkg-jq": "^0.2.4",

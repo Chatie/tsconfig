@@ -3,7 +3,7 @@
 [![NPM Version](https://badge.fury.io/js/%40chatie%2Ftsconfig.svg)](https://www.npmjs.com/package/@chatie/tsconfig)
 [![npm (tag)](https://img.shields.io/npm/v/%40chatie/tsconfig/next.svg)](https://www.npmjs.com/package/@chatie/tsconfig?activeTab=versions)
 [![Build Status](https://travis-ci.com/Chatie/tsconfig.svg?branch=master)](https://travis-ci.com/Chatie/tsconfig)
-[![Greenkeeper badge](https://badges.greenkeeper.io/Chatie/tsconfig.svg)](https://greenkeeper.io/)
+
 
 ![tsconfig.json](https://chatie.github.io/tsconfig/images/typescript-tsconfig-json.jpg)
 

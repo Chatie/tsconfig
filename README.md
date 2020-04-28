@@ -61,7 +61,11 @@ The unit test load tsconfig schema from [JSON Schema Store](http://schemastore.o
 
 ## HISTORY
 
-### v0.7 (master)
+### (master)
+
+### v0.10 Apr 2020
+
+1. Add `dom` to `lib` in tsconfig.json
 
 ### v0.6 June 08 2019
 

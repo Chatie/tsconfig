@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/Chatie/tsconfig#readme",
   "devDependencies": {
-    "@chatie/git-scripts": "^0.2.5",
+    "@chatie/git-scripts": "^0.6.2",
     "@chatie/semver": "^0.4.7",
     "@types/json5": "0.0.30",
     "@types/read-pkg-up": "^6.0.0",

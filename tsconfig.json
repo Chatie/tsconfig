@@ -1,17 +1,17 @@
 {
   "compilerOptions": {
-    "target"          : "es2017",
+    "target"          : "es2019",
     "module"          : "commonjs",
 
-    "traceResolution" : false,
-    "noLib"           : false,
+    "traceResolution"   : false,
+    "noLib"             : false,
+    "resolveJsonModule" : false,
 
     "declaration"       : true,
     "declarationMap"    : true,
     "sourceMap"         : true,
     "skipLibCheck"      : true,
     "esModuleInterop"   : true,
-    "resolveJsonModule" : true,
 
     "emitDecoratorMetadata"  : true,
     "experimentalDecorators" : true,

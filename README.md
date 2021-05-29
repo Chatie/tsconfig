@@ -63,6 +63,10 @@ The unit test load tsconfig schema from [JSON Schema Store](http://schemastore.o
 
 ### (master)
 
+### v0.16 May 2021
+
+1. Upgrade TypeScript version from 4.1 to 4.3
+
 ### v0.10 Apr 2020
 
 1. Add `dom` to `lib` in tsconfig.json

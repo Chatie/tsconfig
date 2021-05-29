@@ -29,5 +29,6 @@
     "noImplicitAny"              : true,
     "noUnusedParameters"         : true,
     "noImplicitThis"             : true,
+    "forceConsistentCasingInFileNames": true,
   },
 }

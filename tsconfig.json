@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target"          : "es2019",
+    "target"          : "es2020",
     "module"          : "commonjs",
 
     "traceResolution"   : false,
@@ -24,6 +24,9 @@
     "noEmitOnError"              : true,
     "noUnusedLocals"             : true,
     "noImplicitReturns"          : true,
+    "noImplicitOverride"         : true,
+    "noUncheckedIndexedAccess"   : true,
+    "noPropertyAccessFromIndexSignature": true,
     "noFallthroughCasesInSwitch" : true,
     "strictNullChecks"           : true,
     "noImplicitAny"              : true,

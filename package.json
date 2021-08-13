@@ -34,7 +34,7 @@
   "devDependencies": {
     "@chatie/git-scripts": "^0.6.2",
     "@chatie/semver": "^0.4.7",
-    "@types/json5": "0.0.30",
+    "@types/json5": "2.2.0",
     "@types/read-pkg-up": "^6.0.0",
     "file-box": "^0.16.8",
     "is-my-json-valid": "^2.20.5",

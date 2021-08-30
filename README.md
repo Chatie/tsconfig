@@ -61,7 +61,16 @@ The unit test load tsconfig schema from [JSON Schema Store](http://schemastore.o
 
 ## HISTORY
 
-### (master)
+### (master) v0.19
+
+Default to ES Modules: `"module": "es2020"`
+
+1. Change `"target": "es2020"`
+1. Add `"isolatedModules": true`
+1. Add `"importsNotUsedAsValues": "error"`
+1. Add `"moduleResolution": "node"`
+
+See: [Intro to the TSConfig Reference:](https://www.typescriptlang.org/tsconfig)
 
 ### v0.16 May 2021
 

@@ -1,16 +1,16 @@
 {
   "name": "@chatie/tsconfig",
-  "version": "0.17.2",
+  "version": "0.19.0",
   "description": "tsconfig.json inheritance via Node.js packages",
   "tsconfig": "tsconfig.json",
+  "type": "module",
   "scripts": {
     "dist": "echo dist",
     "lint": "echo lint",
-    "pack": "npm pack",
     "postinstall": "node bin/install.js",
     "test": "npm run lint && npm run test:unit",
     "test:pack": "bash -x scripts/npm-pack-testing.sh",
-    "test:unit": "blue-tape -r ts-node/register \"src/**/*.spec.ts\" \"src/*.spec.ts\" \"tests/*.spec.ts\" \"tests/**/*.spec.ts\""
+    "test:unit": "tap --node-arg=--loader=ts-node/esm --node-arg=--no-warnings \"tests/**/*.spec.ts\""
   },
   "repository": {
     "type": "git",
@@ -41,7 +41,7 @@
     "json5": "^2.2.0",
     "pkg-jq": "^0.2.11",
     "read-pkg-up": "^8.0.0",
-    "tstest": "^0.4.10"
+    "tstest": "^0.5.16"
   },
   "publishConfig": {
     "access": "public",

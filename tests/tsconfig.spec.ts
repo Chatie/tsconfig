@@ -1,15 +1,17 @@
-#!/usr/bin/env ts-node
+#!/usr/bin/env node --no-warnings --loader ts-node/esm
 
 import fs from 'fs'
 import path from 'path'
 
-// tslint:disable:no-shadowed-variable
-import test  from 'blue-tape'
+import { test } from 'tstest'
 
 import { FileBox } from 'file-box'
 
 import Validator  from 'is-my-json-valid'
 import JSON5 from 'json5'
+
+import { fileURLToPath } from 'url'
+const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 test('Validate tsconfig from SchemasSore.org', async t => {
   const fileBox = FileBox.fromUrl('http://json.schemastore.org/tsconfig')

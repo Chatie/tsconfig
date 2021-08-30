@@ -1,8 +1,29 @@
+/**
+ * Intro to the TSConfig Reference:
+ *  https://www.typescriptlang.org/tsconfig
+ */
 {
   "compilerOptions": {
-    "target"          : "es2019",
-    "module"          : "commonjs",
+    /**
+     * ES Module support
+     */
+    "target": "es2020",
+    // ES Modules: https://www.typescriptlang.org/tsconfig#module
+    "module": "es2020",
+    // https://www.typescriptlang.org/tsconfig#moduleResolution
+    "moduleResolution": "node",
 
+    /**
+     * Type import/export checkings
+     */
+    // https://devblogs.microsoft.com/typescript/announcing-typescript-3-8/#type-only-imports-exports
+    "importsNotUsedAsValues": "error",
+    // https://www.typescriptlang.org/tsconfig#isolatedModules
+    "isolatedModules": true,
+
+    /**
+     * Other settings
+     */
     "traceResolution"   : false,
     "noLib"             : false,
     "resolveJsonModule" : false,

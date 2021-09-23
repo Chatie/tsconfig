@@ -39,7 +39,7 @@
     "is-my-json-valid": "^2.20.5",
     "json5": "^2.2.0",
     "pkg-jq": "^0.2.11",
-    "tstest": "^0.5.16"
+    "tstest": "^0.7.2"
   },
   "publishConfig": {
     "access": "public",

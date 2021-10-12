@@ -38,8 +38,7 @@
     "file-box": "^0.16.8",
     "is-my-json-valid": "^2.20.5",
     "json5": "^2.2.0",
-    "pkg-jq": "^0.2.11",
-    "tstest": "^0.5.16"
+    "pkg-jq": "^0.2.11"
   },
   "publishConfig": {
     "access": "public",
@@ -50,11 +49,15 @@
     "bin/install.js"
   ],
   "dependencies": {
-    "@types/node": "^16.7.6",
+    "@types/node": "^16.10.3",
     "cross-env": "^7.0.3",
+    "npm-run-all": "^4.1.5",
     "pkg-up": "^3.1.0",
-    "ts-node": "^10.2.1",
-    "typescript": "^4.4.2"
+    "shx": "^0.3.3",
+    "ts-node": "^10.3.0",
+    "tstest": "^0.5.16",
+    "type-fest": "^2.5.0",
+    "typescript": "^4.4.3"
   },
   "git": {
     "scripts": {

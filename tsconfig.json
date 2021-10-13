@@ -14,7 +14,7 @@
     "module": "nodenext",
 
     // https://www.typescriptlang.org/tsconfig#moduleResolution
-    "moduleResolution": "node",
+    "moduleResolution": "nodenext",
 
     /**
      * Type import/export checkings

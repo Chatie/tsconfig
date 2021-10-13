@@ -7,9 +7,12 @@
     /**
      * ES Module support
      */
-    "target": "es2020",
+    "target": "esnext",
+
     // ES Modules: https://www.typescriptlang.org/tsconfig#module
-    "module": "es2020",
+    // https://devblogs.microsoft.com/typescript/announcing-typescript-4-5-beta/#esm-nodejs
+    "module": "nodenext",
+
     // https://www.typescriptlang.org/tsconfig#moduleResolution
     "moduleResolution": "node",
 

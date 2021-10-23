@@ -63,7 +63,7 @@ The unit test load tsconfig schema from [JSON Schema Store](http://schemastore.o
 
 ### master
 
-### v0.20
+### v1.0 (Oct 24, 2021)
 
 #### Major changes
 

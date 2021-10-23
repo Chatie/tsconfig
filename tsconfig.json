@@ -11,10 +11,12 @@
 
     // ES Modules: https://www.typescriptlang.org/tsconfig#module
     // https://devblogs.microsoft.com/typescript/announcing-typescript-4-5-beta/#esm-nodejs
-    "module": "nodenext",
+    // "module": "nodenext",
+    "module": "esnext",
 
     // https://www.typescriptlang.org/tsconfig#moduleResolution
-    "moduleResolution": "nodenext",
+    // "moduleResolution": "nodenext",
+    "moduleResolution": "node",
 
     /**
      * Type import/export checkings

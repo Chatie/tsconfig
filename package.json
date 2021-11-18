@@ -1,6 +1,6 @@
 {
   "name": "@chatie/tsconfig",
-  "version": "1.0.3",
+  "version": "4.5.0",
   "description": "tsconfig.json inheritance via Node.js packages",
   "tsconfig": "tsconfig.json",
   "type": "module",
@@ -45,8 +45,8 @@
     "@chatie/git-scripts": "^0.6.2",
     "@chatie/semver": "^0.4.7",
     "@types/json5": "2.2.0",
-    "file-box": "^1.0.4",
-    "is-my-json-valid": "^2.20.5",
+    "file-box": "^1.4.1",
+    "is-my-json-valid": "^2.20.6",
     "json5": "^2.2.0"
   },
   "publishConfig": {
@@ -58,16 +58,16 @@
     "bin/install.js"
   ],
   "dependencies": {
-    "@types/node": "^16.11.6",
+    "@types/node": "^16.11.7",
     "cross-env": "^7.0.3",
     "npm-run-all": "^4.1.5",
     "pkg-jq": "^0.2.11",
-    "pkg-up": "^3.1.0",
+    "pkg-up": "3.1.0",
     "shx": "^0.3.3",
     "ts-node": "^10.4.0",
     "tstest": "^1.0.1",
-    "type-fest": "^2.5.2",
-    "typescript": "^4.4.4"
+    "type-fest": "^2.5.4",
+    "typescript": "^4.5.2"
   },
   "git": {
     "scripts": {

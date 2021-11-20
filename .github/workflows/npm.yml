@@ -50,7 +50,8 @@ jobs:
           cache-dependency-path: package.json
 
       - run: npm install
-      - run: ./scripts/package-publish-config-tag.sh
+      # Huan(202111): always publish to latest for @chatie/tsconfig
+      # - run: ./scripts/package-publish-config-tag.sh
 
       - name: Check Branch
         id: check-branch

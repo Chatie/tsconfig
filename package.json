@@ -1,6 +1,6 @@
 {
   "name": "@chatie/tsconfig",
-  "version": "4.5.2",
+  "version": "4.6.0",
   "description": "tsconfig.json inheritance via Node.js packages",
   "tsconfig": "tsconfig.json",
   "type": "module",
@@ -58,11 +58,14 @@
     "bin/install.js"
   ],
   "dependencies": {
+    "@swc/core": "^1.2.112",
+    "@swc/helpers": "^0.2.14",
     "@types/node": "^16.11.7",
     "cross-env": "^7.0.3",
     "npm-run-all": "^4.1.5",
     "pkg-jq": "^0.2.11",
     "pkg-up": "3.1.0",
+    "regenerator-runtime": "^0.13.9",
     "shx": "^0.3.3",
     "ts-node": "^10.4.0",
     "tstest": "^1.0.1",

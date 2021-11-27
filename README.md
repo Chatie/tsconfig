@@ -63,6 +63,13 @@ The unit test load tsconfig schema from [JSON Schema Store](http://schemastore.o
 
 ### master
 
+### v4.6 (Nov 27, 2021)
+
+Speed up `ts-node` with Rust TypeScript runtime.
+
+1. add `ts-node.transpileOnly: true`
+1. add `ts-node.transpiler: "ts-node/transpilers/swc-experimental"`
+
 ### v1.0 (Oct 24, 2021)
 
 #### Major changes

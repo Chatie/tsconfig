@@ -63,6 +63,12 @@ The unit test load tsconfig schema from [JSON Schema Store](http://schemastore.o
 
 ### master
 
+### v4.9 (Jan 11, 2023)
+
+1. Requires Node.js v18 or above
+1. Requires NPM v9 or above
+1. Upgrade to TypeScript 4.9
+
 ### v4.6 (Nov 27, 2021)
 
 Speed up `ts-node` with Rust TypeScript runtime.
